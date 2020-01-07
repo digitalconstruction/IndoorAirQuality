@@ -1,0 +1,638 @@
+@prefix : <https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl> .
+
+<https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl> rdf:type owl:Ontology ;
+                                                                                 owl:imports <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/ontology.ttl> ,
+                                                                                             <https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl> ;
+                                                                                 <http://purl.org/dc/elements/1.1/creator> "SUITE5" ;
+                                                                                 <http://purl.org/dc/elements/1.1/rights> "This ontology is distributed under Apache License Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)" ;
+                                                                                 <http://purl.org/dc/terms/description> "The IAQ Ontology  formalise the model to be considered for IAQ modeling in the building environment. The model incorporates the core principles to be considered in the BIM4EEB project" ;
+                                                                                 <http://purl.org/dc/terms/title> "BIM4EEB IAQ Ontology" ;
+                                                                                 rdfs:comment """The IAQ ontology was created by SUITE5 under the framework of the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme  under the topic \" Building information modelling adapted to efficient renovation (RIA)\"
+
+The puspose of the  ontology is to provide an operational framework for the orchestration of heterogeneous (environmental-, health-, user profile- related) data, in order to support user-oriented behavioural profile that incorporates also health related parameters.""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Allergy
+:Allergy rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#CO
+:CO rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#CO2
+:CO2 rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Disease
+:Disease rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#ISO450001
+:ISO450001 rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#NOx
+:NOx rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#PM10
+:PM10 rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#PM25
+:PM25 rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#WHO
+:WHO rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#tVOC
+:tVOC rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasActivities
+:hasActivities rdf:type owl:ObjectProperty ;
+               rdfs:comment "relationship of a Zone with the associated activities" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasAirQualityStation
+:hasAirQualityStation rdf:type owl:ObjectProperty ;
+                      rdfs:comment "Air Quality Sstation is placed at specific zone/location" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasFunction
+:hasFunction rdf:type owl:ObjectProperty ;
+             rdfs:comment "relationship of an IAQ performance with a specific recommendation" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasHealthImpact
+:hasHealthImpact rdf:type owl:ObjectProperty ;
+                 rdfs:comment "the condition has a health impact" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasHealthProblem
+:hasHealthProblem rdf:type owl:ObjectProperty ;
+                  rdfs:comment "relationship of a situation with a specific health issue" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasImpact
+:hasImpact rdf:type owl:ObjectProperty ;
+           rdfs:comment "An IAQ condition is associated with a health condition" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasMaxAspects
+:hasMaxAspects rdf:type owl:ObjectProperty ;
+               rdfs:comment "the regulation specifies the boundaries for IAQ parameters" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasObservations
+:hasObservations rdf:type owl:ObjectProperty ;
+                 rdfs:comment "A class has observations over specific metrics" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasOccupants
+:hasOccupants rdf:type owl:ObjectProperty ;
+              rdfs:comment "A building zone is assigned with specific occupants" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasProcedure
+:hasProcedure rdf:type owl:ObjectProperty ;
+              rdfs:comment "relationshipf of an IAQ KPI with a specific calculation procedure" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasSource
+:hasSource rdf:type owl:ObjectProperty ;
+           rdfs:comment "IAQ has a specific source" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasZoneReference
+:hasZoneReference rdf:type owl:ObjectProperty ;
+                  rdfs:comment "relationship of a regulation with a specific buidling/zone" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#isDefined
+:isDefined rdf:type owl:ObjectProperty ;
+           rdfs:comment "the key IAQ metrics/parameters are specified in the regulation" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#isRelated
+:isRelated rdf:type owl:ObjectProperty ;
+           rdfs:comment "relationship of an IAQ condition with an activity" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#relatedToPerformance
+:relatedToPerformance rdf:type owl:ObjectProperty ;
+                      rdfs:comment "the condition has IAQ Performance (KPI values)" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#relatestoConditions
+:relatestoConditions rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#classificationParameters
+:classificationParameters rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasAirExchangeRate
+:hasAirExchangeRate rdf:type owl:DatatypeProperty ;
+                    rdfs:comment "The air exchange rate for a specific building zone" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty ;
+                rdfs:comment "A class has a specific description" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasEffectiveDate
+:hasEffectiveDate rdf:type owl:DatatypeProperty ;
+                  rdfs:comment "A  regulation has an effective date" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasEndTime
+:hasEndTime rdf:type owl:DatatypeProperty ;
+            rdfs:comment "End time of a process" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasIAQType
+:hasIAQType rdf:type owl:DatatypeProperty ;
+            rdfs:range :CO ,
+                       :CO2 ,
+                       :NOx ,
+                       :PM10 ,
+                       :PM25 ,
+                       :tVOC ;
+            rdfs:comment "IAQ types of interest" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasMaxConstraint
+:hasMaxConstraint rdf:type owl:DatatypeProperty ;
+                  rdfs:comment "The value has a max constraint" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:comment "the class has a name" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasPublisher
+:hasPublisher rdf:type owl:DatatypeProperty ;
+              rdfs:range :ISO450001 ,
+                         :WHO ;
+              rdfs:comment "the regulation has an authority responsible for" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasSourceRate
+:hasSourceRate rdf:type owl:DatatypeProperty ;
+               rdfs:comment "The resource rate of a specific IAQ source" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasStartTime
+:hasStartTime rdf:type owl:DatatypeProperty ;
+              rdfs:comment "The class has a start time" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#hasType
+:hasType rdf:type owl:DatatypeProperty ;
+         rdfs:range :Allergy ,
+                    :Disease ;
+         rdfs:comment "A health issue has a specific type" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#probabilisticParameters
+:probabilisticParameters rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#timeStamp
+:timeStamp rdf:type owl:DatatypeProperty ;
+           rdfs:comment "A specific timestamp for an observation" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty :hasSource ;
+                                                                                                                   owl:someValuesFrom <https://w3id.org/bot#Element>
+                                                                                                                 ] ,
+                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty :isRelated ;
+                                                                                                                   owl:someValuesFrom :IndoorActivity
+                                                                                                                 ] ,
+                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty :hasSourceRate ;
+                                                                                                                   owl:someValuesFrom xsd:float
+                                                                                                                 ] .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty :hasImpact ;
+                                                                                                                owl:someValuesFrom :HealthProblem
+                                                                                                              ] ,
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty :isDefined ;
+                                                                                                                owl:someValuesFrom :RegulationProperty
+                                                                                                              ] ,
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty :hasDescription ;
+                                                                                                                owl:someValuesFrom xsd:string
+                                                                                                              ] ,
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty :hasIAQType ;
+                                                                                                                owl:someValuesFrom xsd:string
+                                                                                                              ] .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualitySensor
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualitySensor> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                              owl:onProperty :hasDescription ;
+                                                                                                              owl:someValuesFrom xsd:string
+                                                                                                            ] ,
+                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                              owl:onProperty :hasName ;
+                                                                                                              owl:someValuesFrom xsd:string
+                                                                                                            ] .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityStation
+<http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityStation> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                                                                                               owl:someValuesFrom xsd:string
+                                                                                                             ] ,
+                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty :hasDescription ;
+                                                                                                               owl:someValuesFrom xsd:string
+                                                                                                             ] .
+
+
+###  http://www.w3.org/ns/sosa/ObservableProperty
+<http://www.w3.org/ns/sosa/ObservableProperty> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/Procedure
+<http://www.w3.org/ns/sosa/Procedure> rdf:type owl:Class .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Activity
+:Activity rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :relatedToPerformance ;
+                            owl:someValuesFrom :AirQualityPerformance
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty <https://w3id.org/bot#hasElement> ;
+                            owl:someValuesFrom <https://w3id.org/bot#Element>
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                            owl:someValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasEndTime ;
+                            owl:allValuesFrom xsd:dateTimeStamp
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasStartTime ;
+                            owl:allValuesFrom xsd:dateTimeStamp
+                          ] ;
+          rdfs:comment "An entity representing occupants physical exercise as a main entity of the Occupants Behaviour Ontology" ;
+          rdfs:label "Building related Activity" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#AirQualityPerformance
+:AirQualityPerformance rdf:type owl:Class ;
+                       rdfs:subClassOf <http://www.w3.org/ns/sosa/ObservableProperty> ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasFunction ;
+                                         owl:someValuesFrom :Recommendations
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasMaxAspects ;
+                                         owl:someValuesFrom :RegulationProperty
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasProcedure ;
+                                         owl:someValuesFrom <http://www.w3.org/ns/sosa/Procedure>
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasDescription ;
+                                         owl:someValuesFrom xsd:string
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasMaxConstraint ;
+                                         owl:allValuesFrom xsd:float
+                                       ] ;
+                       rdfs:comment "An entity for representing the index levels that correspond to specific air pollutant measurements' ranges." ;
+                       rdfs:label "IAQ Index" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Classification
+:Classification rdf:type owl:Class ;
+                rdfs:subClassOf :DataDrivenMethod ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :classificationParameters ;
+                                  owl:someValuesFrom owl:rational
+                                ] ;
+                rdfs:comment "A classification analysis model for the extraction fo IAQ parameters" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#DataDrivenMethod
+:DataDrivenMethod rdf:type owl:Class ;
+                  rdfs:subClassOf <http://www.w3.org/ns/sosa/Procedure> ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasObservations ;
+                                    owl:someValuesFrom <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation>
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://purl.org/dc/elements/1.1/date> ;
+                                    owl:someValuesFrom xsd:dateTime
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                    owl:someValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasDescription ;
+                                    owl:someValuesFrom xsd:string
+                                  ] ;
+                  rdfs:comment "A data  driven approach for the extraction of IAQ KPIs based on existing data" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Device
+:Device rdf:type owl:Class ;
+        rdfs:subClassOf <https://w3id.org/bot#Element> ;
+        rdfs:comment "Bulding Device and equipment" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#HealthProblem
+:HealthProblem rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty :relatestoConditions ;
+                                 owl:someValuesFrom <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasDescription ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasType ;
+                                 owl:someValuesFrom xsd:string
+                               ] ;
+               rdfs:comment "An entity for representing possible health problems the users may specify in their user profile." ;
+               rdfs:label "Health Problem" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#IndoorActivity
+:IndoorActivity rdf:type owl:Class ;
+                rdfs:subClassOf :Activity ;
+                rdfs:comment "Any activity performed indoors." ;
+                rdfs:label "Indoor Activity" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Material
+:Material rdf:type owl:Class ;
+          rdfs:subClassOf <https://w3id.org/bot#Element> ;
+          rdfs:comment "Building Material" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#ModelDrivenMethod
+:ModelDrivenMethod rdf:type owl:Class ;
+                   rdfs:subClassOf <http://www.w3.org/ns/sosa/Procedure> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasObservations ;
+                                     owl:someValuesFrom <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://purl.org/dc/elements/1.1/date> ;
+                                     owl:someValuesFrom xsd:dateTime
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                     owl:someValuesFrom xsd:string
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasDescription ;
+                                     owl:someValuesFrom xsd:string
+                                   ] ;
+                   rdfs:comment "A model driven approach for the extraction of IAQ KPIs based on existing metrics" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Probabilistic
+:Probabilistic rdf:type owl:Class ;
+               rdfs:subClassOf :DataDrivenMethod ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :probabilisticParameters ;
+                                 owl:someValuesFrom owl:rational
+                               ] ;
+               rdfs:comment "A probablistic analysis model for the extraction fo IAQ parameters" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#RecommendMessages
+:RecommendMessages rdf:type owl:Class ;
+                   rdfs:subClassOf :Recommendations ;
+                   rdfs:comment "A list of recommendations and notifications associated with a specific IAQ KPI" ;
+                   rdfs:label "IAQ Recommendation" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Recommendations
+:Recommendations rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasActivities ;
+                                   owl:someValuesFrom :Activity
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasHealthProblem ;
+                                   owl:someValuesFrom :HealthProblem
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :relatedToPerformance ;
+                                   owl:allValuesFrom :AirQualityPerformance
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasDescription ;
+                                   owl:someValuesFrom xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://purl.org/dc/elements/1.1/date> ;
+                                   owl:allValuesFrom xsd:dateTimeStamp
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                   owl:allValuesFrom xsd:float
+                                 ] ;
+                 rdfs:comment "IAQ Recommendations" ,
+                              """Personalised recommendations for provision, a direct/indirect user may be provided upon request with one or more message, relevant to his/her preferences. 
+
+This function returns a relevant personalised recommendation complying to a specific user classification and to the existing air quality condition, selected from a list of available messages for that classification and environmental state.""" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#RegulationProperty
+:RegulationProperty rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasHealthImpact ;
+                                      owl:someValuesFrom :HealthProblem
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasZoneReference ;
+                                      owl:someValuesFrom <https://w3id.org/bot#Zone>
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                      owl:someValuesFrom xsd:string
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasDescription ;
+                                      owl:someValuesFrom xsd:string
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasEffectiveDate ;
+                                      owl:someValuesFrom xsd:dateTime
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasPublisher ;
+                                      owl:someValuesFrom xsd:string
+                                    ] ;
+                    rdfs:comment "Regulation and Safety IAQ constrains as set by the respective regulation of each country or at international level" ;
+                    rdfs:label "Regulation & Safety Guidelines" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#TipOTheDay
+:TipOTheDay rdf:type owl:Class ;
+            rdfs:subClassOf :Recommendations ;
+            rdfs:comment "A generic tip for the conditions in building premises" ;
+            rdfs:label "Tip of the Day" .
+
+
+###  https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                 owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
+                                                 owl:someValuesFrom xsd:string
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasDescription ;
+                                                 owl:someValuesFrom xsd:string
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasSourceRate ;
+                                                 owl:someValuesFrom xsd:float
+                                               ] .
+
+
+###  https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasActivities ;
+                                              owl:someValuesFrom :IndoorActivity
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasAirQualityStation ;
+                                              owl:someValuesFrom <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityStation>
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasOccupants ;
+                                              owl:someValuesFrom <http://xmlns.com/foaf/0.1/Person>
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :relatedToPerformance ;
+                                              owl:someValuesFrom :AirQualityPerformance
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty <https://w3id.org/bot#hasElement> ;
+                                              owl:someValuesFrom <https://w3id.org/bot#Element>
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasAirExchangeRate ;
+                                              owl:someValuesFrom xsd:float
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasDescription ;
+                                              owl:someValuesFrom xsd:string
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasName ;
+                                              owl:someValuesFrom xsd:string
+                                            ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#AQI
+:AQI rdf:type owl:NamedIndividual ,
+              :AirQualityPerformance .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#BILGA
+:BILGA rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Confinement_Index
+:Confinement_Index rdf:type owl:NamedIndividual ,
+                            :AirQualityPerformance .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#GAPI
+:GAPI rdf:type owl:NamedIndividual ,
+               :AirQualityPerformance .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#IAPI
+:IAPI rdf:type owl:NamedIndividual ,
+               :AirQualityPerformance .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/indoorAirQuality.ttl#Pollution_Index
+:Pollution_Index rdf:type owl:NamedIndividual ,
+                          :AirQualityPerformance .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
