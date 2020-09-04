@@ -580,11 +580,7 @@
   "@id" : "http://www.w3.org/ns/sosa/Procedure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://xmlns.com/foaf/0.1/Person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "https://w3id.org/bot#Element",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid12"
   }, {
@@ -594,7 +590,6 @@
   } ]
 }, {
   "@id" : "https://w3id.org/bot#Zone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid15"
   }, {
@@ -612,9 +607,6 @@
   }, {
     "@id" : "_:genid22"
   } ]
-}, {
-  "@id" : "https://w3id.org/bot#hasElement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],

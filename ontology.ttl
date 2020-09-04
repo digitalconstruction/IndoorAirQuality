@@ -85,10 +85,6 @@
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/bot#hasElement
-<https://w3id.org/bot#hasElement> rdf:type owl:ObjectProperty .
-
-
 ###  https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities
 :hasActivities rdf:type owl:ObjectProperty ;
                rdfs:comment "relationship of a Zone with the associated activities" .
@@ -330,13 +326,8 @@
 <http://www.w3.org/ns/sosa/Procedure> rdf:type owl:Class .
 
 
-###  http://xmlns.com/foaf/0.1/Person
-<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
-
-
 ###  https://w3id.org/bot#Element
-<https://w3id.org/bot#Element> rdf:type owl:Class ;
-                               rdfs:subClassOf [ rdf:type owl:Restriction ;
+<https://w3id.org/bot#Element> rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                  owl:onProperty <http://purl.org/dc/elements/1.1/title> ;
                                                  owl:someValuesFrom xsd:string
                                                ] ,
@@ -351,8 +342,7 @@
 
 
 ###  https://w3id.org/bot#Zone
-<https://w3id.org/bot#Zone> rdf:type owl:Class ;
-                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+<https://w3id.org/bot#Zone> rdfs:subClassOf [ rdf:type owl:Restriction ;
                                               owl:onProperty <https://w3id.org/bot#hasElement> ;
                                               owl:someValuesFrom <https://w3id.org/bot#Element>
                                             ] ,

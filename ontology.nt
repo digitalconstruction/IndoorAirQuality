@@ -78,9 +78,6 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/bot#hasElement
-<https://w3id.org/bot#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-# 
 # https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities
 <https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities> <http://www.w3.org/2000/01/rdf-schema#comment> "relationship of a Zone with the associated activities" .
@@ -238,7 +235,6 @@
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/IndoorAirQuality#hasSource> .
 _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/bot#Element> .
-<https://w3id.org/bot#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/IndoorAirQuality#isRelated> .
@@ -295,9 +291,6 @@ _:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001
 # http://www.w3.org/ns/sosa/Procedure
 <http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://xmlns.com/foaf/0.1/Person
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # https://w3id.org/bot#Element
 <https://w3id.org/bot#Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
@@ -313,7 +306,6 @@ _:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalco
 _:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
 # 
 # https://w3id.org/bot#Zone
-<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/bot#hasElement> .

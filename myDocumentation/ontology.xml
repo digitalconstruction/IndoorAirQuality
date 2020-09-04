@@ -2,7 +2,8 @@
 <rdf:RDF xmlns="https://w3id.org/digitalconstruction/IndoorAirQuality#"
      xml:base="https://w3id.org/digitalconstruction/IndoorAirQuality"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -155,13 +156,6 @@
      -->
 
 
-    
-
-
-    <!-- https://w3id.org/bot#hasElement -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/bot#hasElement"/>
     
 
 
@@ -589,17 +583,10 @@
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/Person -->
-
-
-    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-    
-
-
     <!-- https://w3id.org/bot#Element -->
 
 
-    <owl:Class rdf:about="https://w3id.org/bot#Element">
+    <rdf:Description rdf:about="https://w3id.org/bot#Element">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/dc/elements/1.1/title"/>
@@ -618,14 +605,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
+    </rdf:Description>
     
 
 
     <!-- https://w3id.org/bot#Zone -->
 
 
-    <owl:Class rdf:about="https://w3id.org/bot#Zone">
+    <rdf:Description rdf:about="https://w3id.org/bot#Zone">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/bot#hasElement"/>
@@ -674,7 +661,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
+    </rdf:Description>
     
 
 
