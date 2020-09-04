@@ -182,19 +182,19 @@
   "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasFunction"
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxAspects"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations"
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty"
   } ]
 }, {
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxAspects"
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasProcedure"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty"
+    "@id" : "http://www.w3.org/ns/sosa/Procedure"
   } ]
 }, {
   "@id" : "_:genid3",
@@ -209,22 +209,13 @@
   "@id" : "_:genid30",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasProcedure"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Procedure"
-  } ]
-}, {
-  "@id" : "_:genid31",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "_:genid32",
+  "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -233,7 +224,7 @@
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxConstraint"
   } ]
 }, {
-  "@id" : "_:genid33",
+  "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#classificationParameters"
@@ -242,7 +233,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#rational"
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasObservations"
@@ -251,7 +242,7 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation"
   } ]
 }, {
-  "@id" : "_:genid35",
+  "@id" : "_:genid34",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.org/dc/elements/1.1/date"
@@ -260,7 +251,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "_:genid36",
+  "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.org/dc/elements/1.1/title"
@@ -269,7 +260,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "_:genid37",
+  "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
@@ -278,7 +269,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "_:genid38",
+  "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#relatestoConditions"
@@ -287,10 +278,19 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"
   } ]
 }, {
-  "@id" : "_:genid39",
+  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.org/dc/elements/1.1/title"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -308,7 +308,7 @@
   "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasType"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -317,22 +317,13 @@
   "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasType"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "_:genid42",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasObservations"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation"
   } ]
 }, {
-  "@id" : "_:genid43",
+  "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.org/dc/elements/1.1/date"
@@ -341,7 +332,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "_:genid44",
+  "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.org/dc/elements/1.1/title"
@@ -350,7 +341,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "_:genid45",
+  "@id" : "_:genid44",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
@@ -359,7 +350,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "_:genid46",
+  "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#probabilisticParameters"
@@ -368,31 +359,40 @@
     "@id" : "http://www.w3.org/2002/07/owl#rational"
   } ]
 }, {
-  "@id" : "_:genid47",
+  "@id" : "_:genid46",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Activity"
-  } ]
-}, {
-  "@id" : "_:genid48",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthProblem"
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthImpact"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem"
   } ]
 }, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasZoneReference"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/bot#Zone"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/title"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
   "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#relatedToPerformance"
+    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "_:genid5",
@@ -407,76 +407,13 @@
   "@id" : "_:genid50",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "_:genid51",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/dc/elements/1.1/date"
-  } ]
-}, {
-  "@id" : "_:genid52",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#float"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/dc/elements/1.1/title"
-  } ]
-}, {
-  "@id" : "_:genid53",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthImpact"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem"
-  } ]
-}, {
-  "@id" : "_:genid54",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasZoneReference"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/bot#Zone"
-  } ]
-}, {
-  "@id" : "_:genid55",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/dc/elements/1.1/title"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "_:genid56",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "_:genid57",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasEffectiveDate"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "_:genid58",
+  "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#hasPublisher"
@@ -532,9 +469,6 @@
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "http://purl.org/dc/terms/abstract",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -618,6 +552,9 @@
   "http://purl.org/dc/terms/abstract" : [ {
     "@value" : "Indoor Air Quality ontology provides an operational framework for the orchestration of heterogeneous (environmental-, health-, user profile- related) data, in order to support user-oriented behavioral profile that incorporates also health related parameters."
   } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Seppo Törmä"
+  } ],
   "http://purl.org/dc/terms/description" : [ {
     "@value" : "The IAQ Ontology  formalise the model to be considered for IAQ modeling in the building environment."
   } ],
@@ -646,6 +583,8 @@
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/ontology.ttl"
   }, {
     "@id" : "https://w3id.org/bot#"
+  }, {
+    "@id" : "https://w3id.org/digitalconstruction/Information"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#AQI",
@@ -689,8 +628,6 @@
     "@id" : "_:genid30"
   }, {
     "@id" : "_:genid31"
-  }, {
-    "@id" : "_:genid32"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Allergy",
@@ -713,7 +650,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod"
   }, {
-    "@id" : "_:genid33"
+    "@id" : "_:genid32"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Confinement_Index",
@@ -727,13 +664,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/sosa/Procedure"
   }, {
+    "@id" : "_:genid33"
+  }, {
     "@id" : "_:genid34"
   }, {
     "@id" : "_:genid35"
   }, {
     "@id" : "_:genid36"
-  }, {
-    "@id" : "_:genid37"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Device",
@@ -757,16 +694,18 @@
     "@value" : "An entity for representing possible health problems the users may specify in their user profile."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Health Problem"
+    "@value" : "HealthProblem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
+  }, {
+    "@id" : "_:genid37"
+  }, {
     "@id" : "_:genid38"
   }, {
     "@id" : "_:genid39"
   }, {
     "@id" : "_:genid40"
-  }, {
-    "@id" : "_:genid41"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#IAPI",
@@ -781,9 +720,11 @@
     "@value" : "Any activity performed indoors."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Indoor Activity"
+    "@value" : "IndoorActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  }, {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Activity"
   } ]
 }, {
@@ -804,13 +745,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/sosa/Procedure"
   }, {
+    "@id" : "_:genid41"
+  }, {
     "@id" : "_:genid42"
   }, {
     "@id" : "_:genid43"
   }, {
     "@id" : "_:genid44"
-  }, {
-    "@id" : "_:genid45"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#NOx",
@@ -833,29 +774,34 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod"
   }, {
-    "@id" : "_:genid46"
+    "@id" : "_:genid45"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A list of recommendations and notifications associated with a specific IAQ KPI"
+    "@value" : "Personalised recommendation for provision, a direct/indirect user may be provided upon request with one or more message, relevant to his/her preferences."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "IAQ Recommendation"
+    "@value" : "IndoorAirQualityRecommendation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations"
+    "@id" : "https://w3id.org/digitalconstruction/Information#Recommendation"
   } ]
 }, {
-  "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations",
+  "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "IAQ Recommendations"
-  }, {
-    "@value" : "Personalised recommendations for provision, a direct/indirect user may be provided upon request with one or more message, relevant to his/her preferences. \n\nThis function returns a relevant personalised recommendation complying to a specific user classification and to the existing air quality condition, selected from a list of available messages for that classification and environmental state."
+    "@value" : "Regulation and Safety IAQ constrains as set by the respective regulation of each country or at international level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "IndoorAirQualityRegulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/digitalconstruction/Information#RegulatoryOrder"
+  }, {
+    "@id" : "_:genid46"
+  }, {
     "@id" : "_:genid47"
   }, {
     "@id" : "_:genid48"
@@ -865,30 +811,6 @@
     "@id" : "_:genid50"
   }, {
     "@id" : "_:genid51"
-  }, {
-    "@id" : "_:genid52"
-  } ]
-}, {
-  "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Regulation and Safety IAQ constrains as set by the respective regulation of each country or at international level"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Regulation & Safety Guidelines"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid53"
-  }, {
-    "@id" : "_:genid54"
-  }, {
-    "@id" : "_:genid55"
-  }, {
-    "@id" : "_:genid56"
-  }, {
-    "@id" : "_:genid57"
-  }, {
-    "@id" : "_:genid58"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay",
@@ -897,10 +819,10 @@
     "@value" : "A generic tip for the conditions in building premises"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Tip of the Day"
+    "@value" : "IndoorAirQualityTipOfTheDay"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations"
+    "@id" : "https://w3id.org/digitalconstruction/Information#Recommendation"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/IndoorAirQuality#WHO",

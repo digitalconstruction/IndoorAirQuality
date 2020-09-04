@@ -51,19 +51,27 @@ This section provides details for each class and property defined by Digital con
       </li>
       <li>
          <a href="#HealthProblem"
-            title="https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem">Health Problem</a>
+            title="https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem">HealthProblem</a>
       </li>
       <li>
          <a href="#AirQualityPerformance"
             title="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance">IAQ Index</a>
       </li>
       <li>
-         <a href="#RecommendMessages"
-            title="https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages">IAQ Recommendation</a>
+         <a href="#IndoorActivity"
+            title="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity">IndoorActivity</a>
       </li>
       <li>
-         <a href="#IndoorActivity"
-            title="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity">Indoor Activity</a>
+         <a href="#RecommendMessages"
+            title="https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages">IndoorAirQualityRecommendation</a>
+      </li>
+      <li>
+         <a href="#RegulationProperty"
+            title="https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty">IndoorAirQualityRegulation</a>
+      </li>
+      <li>
+         <a href="#TipOTheDay"
+            title="https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay">IndoorAirQualityTipOfTheDay</a>
       </li>
       <li>
          <a href="#Material"
@@ -82,20 +90,6 @@ This section provides details for each class and property defined by Digital con
             title="https://w3id.org/digitalconstruction/IndoorAirQuality#Probabilistic">
             <span>probabilistic</span>
          </a>
-      </li>
-      <li>
-         <a href="#Recommendations"
-            title="https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations">
-            <span>recommendations</span>
-         </a>
-      </li>
-      <li>
-         <a href="#RegulationProperty"
-            title="https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty">Regulation &amp; Safety Guidelines</a>
-      </li>
-      <li>
-         <a href="#TipOTheDay"
-            title="https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay">Tip of the Day</a>
       </li>
    </ul>
    <div class="entity" id="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation">
@@ -162,7 +156,7 @@ This section provides details for each class and property defined by Digital con
          <dt>has sub-classes</dt>
          <dd>
             <a href="#IndoorActivity"
-               title="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity">Indoor Activity</a>
+               title="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity">IndoorActivity</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -230,7 +224,7 @@ This section provides details for each class and property defined by Digital con
       </dl>
    </div>
    <div class="entity" id="HealthProblem">
-      <h3>Health Problem<sup class="type-c" title="class">c</sup>
+      <h3>HealthProblem<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -241,7 +235,9 @@ This section provides details for each class and property defined by Digital con
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
-         <dd/>
+         <dd>
+            <span class="dotted" title="http://purl.obolibrary.org/obo/BFO_0000016">b f o 0000016</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="AirQualityPerformance">
@@ -276,27 +272,8 @@ This section provides details for each class and property defined by Digital con
          </dd>
       </dl>
    </div>
-   <div class="entity" id="RecommendMessages">
-      <h3>IAQ Recommendation<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages</p>
-      <div class="comment">
-         <span class="markdown">A list of recommendations and notifications associated with a specific IAQ KPI</span>
-      </div>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Recommendations"
-               title="https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations">recommendations</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="IndoorActivity">
-      <h3>Indoor Activity<sup class="type-c" title="class">c</sup>
+      <h3>IndoorActivity<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -310,7 +287,61 @@ This section provides details for each class and property defined by Digital con
          <dd>
             <a href="#Activity"
                title="https://w3id.org/digitalconstruction/IndoorAirQuality#Activity">Building related Activity</a>
-            <sup class="type-c" title="class">c</sup>
+            <sup class="type-c" title="class">c</sup>, <span class="dotted" title="http://purl.obolibrary.org/obo/BFO_0000015">b f o 0000015</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RecommendMessages">
+      <h3>IndoorAirQualityRecommendation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages</p>
+      <div class="comment">
+         <span class="markdown">Personalised recommendation for provision, a direct/indirect user may be provided upon request with one or more message, relevant to his/her preferences.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/digitalconstruction/Information#Recommendation">recommendation</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RegulationProperty">
+      <h3>IndoorAirQualityRegulation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty</p>
+      <div class="comment">
+         <span class="markdown">Regulation and Safety IAQ constrains as set by the respective regulation of each country or at international level</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/digitalconstruction/Information#RegulatoryOrder">regulatory order</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TipOTheDay">
+      <h3>IndoorAirQualityTipOfTheDay<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay</p>
+      <div class="comment">
+         <span class="markdown">A generic tip for the conditions in building premises</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/digitalconstruction/Information#Recommendation">recommendation</span>
          </dd>
       </dl>
    </div>
@@ -364,63 +395,6 @@ This section provides details for each class and property defined by Digital con
          <dd>
             <a href="#DataDrivenMethod"
                title="https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod">data driven method</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="Recommendations">
-      <h3>recommendations<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations</p>
-      <div class="comment">
-         <span class="markdown">IAQ Recommendations</span>
-      </div>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd/>
-         <dt>has sub-classes</dt>
-         <dd>
-            <a href="#RecommendMessages"
-               title="https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages">IAQ Recommendation</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#TipOTheDay"
-               title="https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay">Tip of the Day</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="RegulationProperty">
-      <h3>Regulation &amp; Safety Guidelines<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty</p>
-      <div class="comment">
-         <span class="markdown">Regulation and Safety IAQ constrains as set by the respective regulation of each country or at international level</span>
-      </div>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd/>
-      </dl>
-   </div>
-   <div class="entity" id="TipOTheDay">
-      <h3>Tip of the Day<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay</p>
-      <div class="comment">
-         <span class="markdown">A generic tip for the conditions in building premises</span>
-      </div>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Recommendations"
-               title="https://w3id.org/digitalconstruction/IndoorAirQuality#Recommendations">recommendations</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
