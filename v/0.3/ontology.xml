@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/digitalconstruction/IndoorAirQuality#"
-     xml:base="https://w3id.org/digitalconstruction/IndoorAirQuality"
+<rdf:RDF xmlns="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#"
+     xml:base="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:ns1="http://creativecommons.org/ns#"
@@ -14,10 +14,10 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/">
-    <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality">
+    <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality">
         <owl:imports rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire/ontology.ttl"/>
         <owl:imports rdf:resource="https://w3id.org/bot#"/>
-        <owl:imports rdf:resource="https://w3id.org/digitalconstruction/Information"/>
+        <owl:imports rdf:resource="https://w3id.org/digitalconstruction/0.3/Information"/>
         <dc:creator>Kostas Tsatsakis (kostas@suite5.eu)</dc:creator>
         <dc:creator>Spiros Kousouris (spiros@suite5.eu)</dc:creator>
         <terms:abstract>Indoor Air Quality ontology provides an operational framework for the orchestration of heterogeneous (environmental-, health-, user profile- related) data, in order to support user-oriented behavioral profile that incorporates also health related parameters.</terms:abstract>
@@ -26,7 +26,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Digital Construction - IndoorAirQuality</terms:title>
         <vann:preferredNamespacePrefix>diciaq</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/IndoorAirQuality</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/0.3/IndoorAirQuality</vann:preferredNamespaceUri>
         <rdfs:comment>The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). </rdfs:comment>
         <rdfs:label>Digital construction - IndoorAirQuality</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://w3id.org/digitalconstruction"/>
@@ -72,73 +72,73 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Allergy -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Allergy -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Allergy"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Allergy"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#CO -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#CO -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#CO"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#CO"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#CO2 -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#CO2 -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#CO2"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#CO2"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Disease -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Disease -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Disease"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Disease"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#ISO450001 -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#ISO450001 -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#ISO450001"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#ISO450001"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#NOx -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#NOx -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#NOx"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#NOx"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#PM10 -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#PM10 -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#PM10"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#PM10"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#PM25 -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#PM25 -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#PM25"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#PM25"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#WHO -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#WHO -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#WHO"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#WHO"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#tVOC -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#tVOC -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#tVOC"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#tVOC"/>
     
 
 
@@ -154,145 +154,145 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasActivities -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasActivities">
         <rdfs:comment>relationship of a Zone with the associated activities</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasAirQualityStation -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasAirQualityStation -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasAirQualityStation">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasAirQualityStation">
         <rdfs:comment>Air Quality Sstation is placed at specific zone/location</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasFunction -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasFunction -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasFunction">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasFunction">
         <rdfs:comment>relationship of an IAQ performance with a specific recommendation</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthImpact -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasHealthImpact -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthImpact">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasHealthImpact">
         <rdfs:comment>the condition has a health impact</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthProblem -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasHealthProblem -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthProblem">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasHealthProblem">
         <rdfs:comment>relationship of a situation with a specific health issue</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasImpact -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasImpact -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasImpact">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasImpact">
         <rdfs:comment>An IAQ condition is associated with a health condition</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxAspects -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasMaxAspects -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxAspects">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasMaxAspects">
         <rdfs:comment>the regulation specifies the boundaries for IAQ parameters</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasObservations -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasObservations -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasObservations">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasObservations">
         <rdfs:comment>A class has observations over specific metrics</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasOccupants -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasOccupants -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasOccupants">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasOccupants">
         <rdfs:comment>A building zone is assigned with specific occupants</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasProcedure -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasProcedure -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasProcedure">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasProcedure">
         <rdfs:comment>relationshipf of an IAQ KPI with a specific calculation procedure</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasSource -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSource -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasSource">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSource">
         <rdfs:comment>IAQ has a specific source</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasZoneReference -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasZoneReference -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasZoneReference">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasZoneReference">
         <rdfs:comment>relationship of a regulation with a specific buidling/zone</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#isDefined -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#isDefined -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#isDefined">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#isDefined">
         <rdfs:comment>the key IAQ metrics/parameters are specified in the regulation</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#isRelated -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#isRelated -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#isRelated">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#isRelated">
         <rdfs:comment>relationship of an IAQ condition with an activity</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#relatedToPerformance -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatedToPerformance -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#relatedToPerformance">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatedToPerformance">
         <rdfs:comment>the condition has IAQ Performance (KPI values)</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#relatestoConditions -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatestoConditions -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#relatestoConditions"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatestoConditions"/>
     
 
 
@@ -322,133 +322,133 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#classificationParameters -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#classificationParameters -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#classificationParameters"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#classificationParameters"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasAirExchangeRate -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasAirExchangeRate -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasAirExchangeRate">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasAirExchangeRate">
         <rdfs:comment>The air exchange rate for a specific building zone</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription">
         <rdfs:comment>A class has a specific description</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasEffectiveDate -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasEffectiveDate -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasEffectiveDate">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasEffectiveDate">
         <rdfs:comment>A  regulation has an effective date</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasEndTime -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasEndTime -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasEndTime">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasEndTime">
         <rdfs:comment>End time of a process</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasIAQType -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasIAQType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasIAQType">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#CO"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#CO2"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#NOx"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#PM10"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#PM25"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#tVOC"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasIAQType">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#CO"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#CO2"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#NOx"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#PM10"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#PM25"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#tVOC"/>
         <rdfs:comment>IAQ types of interest</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxConstraint -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasMaxConstraint -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxConstraint">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasMaxConstraint">
         <rdfs:comment>The value has a max constraint</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasName -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasName">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasName">
         <rdfs:comment>the class has a name</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasPublisher -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasPublisher -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasPublisher">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#ISO450001"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#WHO"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasPublisher">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#ISO450001"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#WHO"/>
         <rdfs:comment>the regulation has an authority responsible for</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasSourceRate -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSourceRate -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasSourceRate">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSourceRate">
         <rdfs:comment>The resource rate of a specific IAQ source</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasStartTime -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasStartTime -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasStartTime">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasStartTime">
         <rdfs:comment>The class has a start time</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#hasType -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#hasType">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#Allergy"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#Disease"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasType">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Allergy"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Disease"/>
         <rdfs:comment>A health issue has a specific type</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#probabilisticParameters -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#probabilisticParameters -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#probabilisticParameters"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#probabilisticParameters"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#timeStamp -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#timeStamp -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#timeStamp">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#timeStamp">
         <rdfs:comment>A specific timestamp for an observation</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -472,19 +472,19 @@
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasSource"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSource"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/bot#Element"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#isRelated"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#isRelated"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#IndoorActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasSourceRate"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSourceRate"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -498,25 +498,25 @@
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasImpact"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#HealthProblem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#isDefined"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#isDefined"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#RegulationProperty"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasIAQType"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasIAQType"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -530,13 +530,13 @@
     <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualitySensor">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -556,7 +556,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -590,13 +590,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasSourceRate"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasSourceRate"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -616,43 +616,43 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasActivities"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasActivities"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#IndoorActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasAirQualityStation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasAirQualityStation"/>
                 <owl:someValuesFrom rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityStation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasOccupants"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasOccupants"/>
                 <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#relatedToPerformance"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatedToPerformance"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasAirExchangeRate"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasAirExchangeRate"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -660,10 +660,10 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Activity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Activity -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Activity">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Activity">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/bot#hasElement"/>
@@ -672,8 +672,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#relatedToPerformance"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatedToPerformance"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -684,13 +684,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasEndTime"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasEndTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasStartTime"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasStartTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -700,32 +700,32 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxAspects"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasMaxAspects"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#RegulationProperty"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasProcedure"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasProcedure"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasMaxConstraint"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasMaxConstraint"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -735,14 +735,14 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Classification -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Classification -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Classification">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Classification">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#DataDrivenMethod"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#classificationParameters"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#classificationParameters"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -751,14 +751,14 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#DataDrivenMethod -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#DataDrivenMethod">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasObservations"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasObservations"/>
                 <owl:someValuesFrom rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -776,7 +776,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -785,24 +785,24 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Device -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Device -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Device">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Device">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:comment>Bulding Device and equipment</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#HealthProblem -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#HealthProblem">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#relatestoConditions"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#relatestoConditions"/>
                 <owl:someValuesFrom rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityProperty"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -814,13 +814,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasType"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasType"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -830,36 +830,36 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#IndoorActivity -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#IndoorActivity">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#IndoorActivity">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#Activity"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Activity"/>
         <rdfs:comment>Any activity performed indoors.</rdfs:comment>
         <rdfs:label>IndoorActivity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Material -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Material -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Material">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Material">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:comment>Building Material</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#ModelDrivenMethod -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#ModelDrivenMethod -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#ModelDrivenMethod">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#ModelDrivenMethod">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasObservations"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasObservations"/>
                 <owl:someValuesFrom rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/calidad-aire#AirQualityObservation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -877,7 +877,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -886,14 +886,14 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Probabilistic -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Probabilistic -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Probabilistic">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#DataDrivenMethod"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Probabilistic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#DataDrivenMethod"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#probabilisticParameters"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#probabilisticParameters"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -902,31 +902,31 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#RecommendMessages -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#RecommendMessages">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Information#Recommendation"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#RecommendMessages">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Information#Recommendation"/>
         <rdfs:comment>Personalised recommendation for provision, a direct/indirect user may be provided upon request with one or more message, relevant to his/her preferences.</rdfs:comment>
         <rdfs:label>IndoorAirQualityRecommendation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#RegulationProperty -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#RegulationProperty">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Information#RegulatoryOrder"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#RegulationProperty">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Information#RegulatoryOrder"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasHealthImpact"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#HealthProblem"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasHealthImpact"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#HealthProblem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasZoneReference"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasZoneReference"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/bot#Zone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -938,19 +938,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasEffectiveDate"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasEffectiveDate"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#hasPublisher"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#hasPublisher"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -960,11 +960,11 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#TipOTheDay -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#TipOTheDay">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Information#Recommendation"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#TipOTheDay">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Information#Recommendation"/>
         <rdfs:comment>A generic tip for the conditions in building premises</rdfs:comment>
         <rdfs:label>IndoorAirQualityTipOfTheDay</rdfs:label>
     </owl:Class>
@@ -983,54 +983,54 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#AQI -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AQI -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#AQI">
-        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AQI">
+        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#BILGA -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#BILGA -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#BILGA"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#BILGA"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Confinement_Index -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Confinement_Index -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Confinement_Index">
-        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Confinement_Index">
+        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#GAPI -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#GAPI -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#GAPI">
-        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#GAPI">
+        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#IAPI -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#IAPI -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#IAPI">
-        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#IAPI">
+        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/IndoorAirQuality#Pollution_Index -->
+    <!-- https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Pollution_Index -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/IndoorAirQuality#Pollution_Index">
-        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/IndoorAirQuality#AirQualityPerformance"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#Pollution_Index">
+        <rdf:type rdf:resource="https://w3id.org/digitalconstruction/0.3/IndoorAirQuality#AirQualityPerformance"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
